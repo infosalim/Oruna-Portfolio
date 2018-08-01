@@ -1,0 +1,663 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    section.oruna-header {
+        padding: 30px;
+    }
+    .navigation ul {
+        text-align: left;
+    }
+    .navigation li a {
+        padding-left: 16px;
+    }
+    section.oruna-cover-section {
+        margin-top: 80px;
+    }
+    .oruna-area {
+        padding-top: 100px;
+    }
+    .oruna-area .dots {
+        padding-left: 70px;
+        padding-bottom: 30px;
+    }
+    section.oruna-cover-section p {
+        padding: 0 24px;
+    }
+    a.downlod-btn {
+        font-size: 18px;
+        padding: 10px 24px;
+        margin-top: 30px;
+    }
+    .oruna-services {
+        padding: 36px 15px;
+        margin-top: 20px;
+    }
+    section.oruna-area.logo-slider {
+        padding: 40px 0;
+    }
+    .news-detail h5 {
+        padding-bottom: 16px;
+    }
+    h1 {
+        font-size: 34px;
+    }
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    .contact-form input[type=tel],
+    .contact-form input[type=text] {
+        width: 95%;
+    }
+    a.readmore-btn:after {
+        left: 145px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .logo img {
+        width: 140px;
+    }
+    .navigation ul {
+        font-weight: 400;
+        text-align: left;
+    }
+    .navigation li a {
+        padding: 0 6px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    section.oruna-header {
+        padding: 20px 0;
+        position: relative;
+    }
+    section.oruna-cover-section {
+        margin-top: 0;
+    }
+    section.oruna-cover-section h2 {
+        font-size: 32px;
+        padding: 30px 0;
+        line-height: 38px;
+    }
+    section.oruna-cover-section p {
+        padding: 0 25px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    section.oruna-area h1 {
+        font-size: 26px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .oruna-area {
+        padding-top: 100px;
+    }
+    section.oruna-area.about-area {
+        padding: 50px 0;
+    }
+    .oruna-area .dots {
+        padding-left: 40px;
+        padding-bottom: 0;
+    }
+    section.oruna-area.about-area h3 {
+        padding: 20px 0;
+    }
+    a.downlod-btn {
+        font-size: 14px;
+        margin-top: 10px;
+        padding: 10px 24px;
+    }
+    section.oruna-area.experience-area {
+        padding: 50px 0;
+    }
+    .marketplace {
+        position: relative;
+        text-align: center;
+        right: 20px;
+        top: 0;
+        margin: 26px 0;
+    }
+    .marketplace h5 {
+        text-align: center;
+        display: inline;
+        padding: 0 5px;
+        margin: 0;
+    }
+    .col-lg-4:before {
+        display: none;
+    }
+    .experience-section h3:before {
+        display: none;
+    }
+    .experience-section {
+        float: left;
+        margin-left: 50px;
+        width: 40%;
+    }
+    .experience-section:hover {
+        box-shadow: 1px 0 7px #000;
+        transition: ease .3s;
+    }
+    .experience-section h3 {
+        font-size: 20px;
+        margin-right: 36px;
+        padding: 10px 0;
+    }
+    .mixitup-area li {
+        font-weight: 400;
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    .oruna-services {
+        padding: 0;
+        width: 100%;
+        height: 75%;
+        border: 1px solid #585985;
+    }
+    .slide-item h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    section.oruna-area.logo-slider {
+        padding: 20px 0;
+    }
+    .owl-dots {
+        display: none;
+    }
+    .owl-nav {
+        display: none;
+    }
+    .news-detail h5 {
+        font-size: 18px;
+    }
+    .news-detail {
+        padding: 24px 15px;
+    }
+    a.readmore-btn:after {
+        left: 95px;
+    }
+    .news-img p {
+        padding: 5px 15px;
+        bottom: -17px;
+    }
+    section.oruna-area.contact-area {
+        padding: 10px 0;
+    }
+    .contact-form {
+        margin: 10px 0;
+        padding: 0;
+    }
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    .contact-form input[type=tel],
+    .contact-form input[type=text] {
+        width: 100%;
+        margin: 20px;
+    }
+    textarea#message {
+        width: 100%;
+        margin-top: 16px;
+    }
+    section.social-contact-area h4 {
+        font-size: 14px;
+    }
+    .oruna-services img {
+        width: 40px;
+        margin-top: 13px;
+    }
+    .oruna-services h5 {
+        padding: 10px;
+    }
+    .oruna-services p {
+        padding-bottom: 20px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    section.oruna-header {
+        padding: 20px 0;
+    }
+    .logo {
+        margin: 0;
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .responsive-menu-wrap {
+        display: block;
+    }
+    .slicknav_menu {
+        background: none;
+        padding: 0;
+    }
+    .slicknav_btn {
+        margin: 0;
+        padding: 0;
+        background: none;
+        position: absolute;
+        top: 0;
+        right: 30px;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu .slicknav_icon-bar {
+        width: 30px;
+        margin: 5px 0;
+        background: #fac900;
+    }
+    .slicknav_nav {
+        font-size: 16px;
+        text-transform: capitalize;
+        background: #00002e;
+        width: 260px;
+    }
+    .slicknav_nav li,
+    .slicknav_nav ul {
+        border-bottom: 1px solid #585985;
+    }
+    .slicknav_nav li:hover {
+        background: transparent;
+    }
+    .slicknav_nav a:hover {
+        background: transparent;
+        color: #fbca00;
+        transition: ease .3s;
+    }
+    .logo img {
+        position: relative;
+    }
+    section.oruna-cover-section {
+        margin: 0;
+        padding: 0;
+        margin-top: 70px;
+    }
+    section.oruna-cover-section h2 {
+        padding: 35px 0;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .cover-area-dots {
+        display: none;
+    }
+    p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    a.call-me-btn {
+        margin: 20px 12px;
+        width: 146px;
+        font-size: 14px;
+    }
+    a.call-me-btn img {
+        margin: 0;
+        margin-left: 40px;
+    }
+    section.oruna-area.about-area {
+        padding-top: 45px;
+    }
+    .oruna-area .dots {
+        padding-bottom: 0;
+    }
+    section.oruna-area.about-area .dots {
+        margin: 0;
+    }
+    section.oruna-area.about-area h3 {
+        padding: 22px 0;
+        font-size: 22px;
+    }
+    p {
+        font-size: 14px;
+    }
+    a.downlod-btn {
+        font-size: 14px;
+        margin-top: 0;
+        padding: 10px 20px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    section.oruna-area.experience-area {
+        padding: 30px 0;
+    }
+    .oruna-area {
+        margin: 0;
+        padding: 0;
+    }
+    .col-lg-4:before {
+        display: none;
+    }
+    .marketplace {
+        display: block;
+        position: relative;
+    }
+    .marketplace h5 {
+        text-align: center;
+    }
+    .experience-section h3:before {
+        display: none;
+    }
+    .experience-section h3 {
+        padding: 10px 0;
+    }
+    .experience-section {
+        padding-bottom: 0;
+    }
+    section.oruna-area.latest-work-area {
+        padding: 30px 0;
+    }
+    section.oruna-area.latest-work-area span.dot-lg {
+        margin-top: 10px;
+    }
+    .mixitup-area li {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .mix h5 {
+        font-size: 14px;
+    }
+    .slide-item h6 {
+        font-size: 12px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+    .slide-item h4 {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    img.img-fluid.logo-1,
+    img.img-fluid.logo-3,
+    img.img-fluid.logo-4 {
+        width: auto;
+    }
+    .item {
+        text-align: -webkit-center;
+    }
+    a.readmore-btn:after {
+        left: 130px;
+    }
+    .news-detail h5 {
+        font-size: 16px;
+    }
+    a.readmore-btn {
+        font-size: 13px;
+    }
+    .contact-form {
+        margin: 0;
+        padding: 0;
+    }
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    .contact-form input[type=tel],
+    .contact-form input[type=text] {
+        width: 85%;
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .contact-form textarea {
+        width: 85%;
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+        margin-top: 10px;
+        padding-top: 9px;
+    }
+    input[type="submit"] {
+        margin: 10px 0;
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    section.social-contact-area h4 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .social-icon ul {
+        text-align: center;
+        margin: 5px 0;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    section.oruna-area .dots,
+    {
+        text-align: center;
+        margin-right: 116px;
+    }
+    section.oruna-area.about-area .dots {
+        text-align: center;
+    }
+    section.oruna-header {
+        padding: 20px 0;
+    }
+    .logo {
+        margin: 0;
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .responsive-menu-wrap {
+        display: block;
+    }
+    .slicknav_menu {
+        background: none;
+        padding: 0;
+    }
+    .slicknav_btn {
+        margin: 0;
+        padding: 0;
+        background: none;
+        position: absolute;
+        top: 0;
+        right: 30px;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu .slicknav_icon-bar {
+        width: 30px;
+        margin: 5px 0;
+        background: #fac900;
+    }
+    .slicknav_nav {
+        font-size: 16px;
+        text-transform: capitalize;
+        background: #00002e;
+        width: 260px;
+    }
+    .slicknav_nav li,
+    .slicknav_nav ul {
+        border-bottom: 1px solid #585985;
+    }
+    .slicknav_nav li:hover {
+        background: transparent;
+    }
+    .slicknav_nav a:hover {
+        background: transparent;
+        color: #fbca00;
+        transition: ease .3s;
+    }
+    .logo img {
+        position: relative;
+    }
+    section.oruna-cover-section {
+        margin: 0;
+        padding: 0;
+        margin-top: 70px;
+    }
+    section.oruna-cover-section h2 {
+        padding: 35px 0;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .cover-area-dots {
+        display: none;
+    }
+    p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    a.call-me-btn {
+        margin: 20px 12px;
+        width: 146px;
+        font-size: 14px;
+    }
+    a.call-me-btn img {
+        margin: 0;
+        margin-left: 40px;
+    }
+    section.oruna-area.about-area {
+        padding-top: 45px;
+    }
+    .oruna-area .dots {
+        padding-left: 105px;
+        padding-bottom: 0;
+    }
+    section.oruna-area.about-area .dots,
+    section.oruna-area .dots {
+        text-align: center;
+        margin-right: 116px;
+    }
+    section.oruna-area.about-area h3 {
+        padding: 22px 0;
+        font-size: 22px;
+    }
+    p {
+        font-size: 14px;
+    }
+    a.downlod-btn {
+        font-size: 14px;
+        margin-top: 0;
+        padding: 10px 20px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    section.oruna-area.experience-area {
+        padding: 30px 0;
+    }
+    .oruna-area {
+        margin: 0;
+        padding: 0;
+    }
+    .col-lg-4:before {
+        display: none;
+    }
+    .marketplace {
+        display: block;
+        position: relative;
+    }
+    .marketplace h5 {
+        text-align: center;
+    }
+    .experience-section h3:before {
+        display: none;
+    }
+    .experience-section h3 {
+        padding: 10px 0;
+    }
+    .experience-section {
+        padding-bottom: 0;
+    }
+    section.oruna-area.latest-work-area {
+        padding: 30px 0;
+    }
+    section.oruna-area.latest-work-area span.dot-lg {
+        margin-top: 10px;
+    }
+    .mixitup-area li {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .mix h5 {
+        font-size: 14px;
+    }
+    .slide-item h6 {
+        font-size: 12px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+    .slide-item h4 {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    img.img-fluid.logo-1,
+    img.img-fluid.logo-3,
+    img.img-fluid.logo-4 {
+        width: auto;
+    }
+    .item {
+        text-align: -webkit-center;
+    }
+    .news-detail h5 {
+        font-size: 16px;
+    }
+    a.readmore-btn {
+        font-size: 13px;
+    }
+    .contact-form {
+        margin: 0;
+        padding: 0;
+    }
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    .contact-form input[type=tel],
+    .contact-form input[type=text] {
+        width: 85%;
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .contact-form textarea {
+        width: 85%;
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+        margin-top: 10px;
+        padding-top: 9px;
+    }
+    input[type="submit"] {
+        margin: 10px 0;
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    section.social-contact-area h4 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .social-icon ul {
+        text-align: center;
+        margin: 5px 0;
+    }
+    #Container img {
+        width: 100%;
+    }
+    
+    .mix h5 {
+        font-size: 16px;
+    }
+    
+    .news-img img {
+        width: 100%;
+    }
+    
+    a.readmore-btn:after {
+        left: 270px;
+    }
+    
+    .contact-form {
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,1033 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* font */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* ==========================================================================
+   default css
+   ========================================================================== */
+
+h1 {
+    font-size: 40px;
+    color: #e7e7ff;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    color: #8f8fae;
+    line-height: 30px;
+}
+
+/* ==========================================================================
+   header css
+   ========================================================================== */
+
+section.oruna-header {
+    padding: 30px 0;
+    background: #010144;
+    border-bottom: 2px solid #282856;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.less-padding {
+    padding: 30px 0;
+}
+
+section.oruna-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+
+section.oruna-header h1:after {
+    position: absolute;
+    right: 5px;
+    top: 28px;
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #fccb22;
+    border-radius: 5px;
+}
+
+.logo {
+    position: relative;
+    height: 40px;
+    width: 165px;
+}
+.responsive-menu-wrap{
+    display: none;
+}
+section.oruna-header h1:hover {
+    text-decoration: none;
+    color: #fbca00;
+}
+
+.navigation {
+    text-align: right;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.navigation li {
+    position: relative;
+    display: inline-block;
+}
+
+.navigation li a {
+    color: #fff;
+    padding-left: 30px;
+}
+
+.navigation li a:hover,
+a.call-me-btn:hover {
+    color: #fbca00;
+    transition: ease-in .23s;
+    text-decoration: none;
+}
+
+.active {
+    color: #fbca00 !important;
+}
+
+/* ==========================================================================
+   Oruna area
+   ========================================================================== */
+
+.oruna-area {
+    position: relative;
+    padding-top: 120px;
+}
+
+section.oruna-area h1 {
+    text-align: center;
+}
+
+.oruna-area .dots {
+    text-align: left;
+    padding-left: 85px;
+    padding-bottom: 40px;
+}
+
+/* ==========================================================================
+   Oruna cover area
+   ========================================================================== */
+
+section.oruna-cover-section {
+    position: relative;
+    margin-top: 100px;
+    background: #00003a;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #00003a 0%, #010148 61%, #010148 61%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #00003a 0%, #010148 61%, #010148 61%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #00003a 0%, #010148 61%, #010148 61%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00003a', endColorstr='#010148', GradientType=1);
+    /* IE6-9 */
+}
+
+section.oruna-cover-section h2 {
+    color: #cbcbe9;
+    margin: 0;
+    padding: 75px 0;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+section.oruna-cover-section p {
+    margin: 0;
+    padding: 0 10px;
+}
+
+section.oruna-cover-section.oruna-area span.dot {
+    display: block;
+    margin-bottom: 10px;
+}
+
+section.oruna-cover-section.oruna-area span.dot-lg {
+    display: block;
+    width: 10px;
+    height: 40px;
+}
+
+.cover-area-dots {
+    float: left;
+    margin-right: 15px;
+    margin-top: 6px;
+}
+
+a.call-me-btn {
+    position: relative;
+    display: block;
+    width: 180px;
+    margin: 0;
+    background: #fff;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 500;
+    margin-top: 40px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+a.call-me-btn img {
+    width: 19px;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 2px;
+}
+
+a.call-me-btn:after {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background: #fbca00;
+    content: '';
+    right: 0;
+    top: 0;
+    z-index: -5;
+    border-radius: 0 25px 25px 0;
+}
+
+a.call-me-btn:hover {
+    color: #fbca00;
+    transition: ease-in .3s;
+}
+
+.cover-img {
+    position: relative;
+}
+
+.cover-img img {
+    min-width: 100%;
+    height: auto;
+}
+
+/* ==========================================================================
+   Oruna about area
+   ========================================================================== */
+
+section.oruna-area.about-area {
+    background: #00003a;
+}
+
+.oruna-area h1 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+section.oruna-area span.dot-lg {
+    height: 10px;
+    width: 40px;
+    background: #5b5b87;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+section.oruna-area span.dot {
+    position: relative;
+    height: 10px;
+    width: 10px;
+    background: #5b5b87;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+section.oruna-area.about-area span {
+    margin-top: 15px;
+}
+
+section.oruna-area.about-area h3 {
+    color: #e1e1e5;
+    margin: 0;
+    padding: 35px 0;
+}
+
+a.downlod-btn {
+    display: inline-block;
+    font-size: 20px;
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    margin-top: 50px;
+    padding: 13px 40px;
+    border-radius: 30px;
+}
+
+a.downlod-btn:hover {
+    text-decoration: none;
+    color: #fbca00;
+    transition: ease-in .3s;
+}
+
+section.oruna-area.about-area .dots{
+    margin-bottom: 30px;
+}
+
+/* ==========================================================================
+   Oruna experience area
+   ========================================================================== */
+
+section.oruna-area.experience-area {
+    position: relative;
+}
+
+.marketplace {
+    position: absolute;
+    margin: 0;
+    right: 5%;
+    top: 40%;
+}
+
+.marketplace h5 {
+    color: #cbcbe9;
+    text-transform: capitalize;
+    text-align: right;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.marketplace {
+    position: absolute;
+    margin: 0;
+    right: 5%;
+    top: 28%;
+}
+
+.experience-section {
+    position: relative;
+    padding: 30px;
+}
+
+.experience-section h3 {
+    color: #cbcbe9;
+    text-transform: capitalize;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+section.oruna-area.experience-area .col-lg-4:before {
+    height: 50%;
+    position: absolute;
+    width: 0;
+    background: none;
+    content: '';
+    border: 1px dashed #cbcbe9;
+    top: 10%;
+}
+
+.experience-section h3:before {
+    position: absolute;
+    height: 0;
+    width: 20px;
+    background: none;
+    content: '';
+    border: 1px dashed #cbcbe9;
+    top: 20%;
+    left: 0;
+}
+
+/* ==========================================================================
+   Oruna latest works
+   ========================================================================== */
+
+section.oruna-area.latest-work-area {
+    background: #00003a;
+}
+
+section.oruna-area.latest-work-area span.dot-lg {
+    margin-top: 15px;
+}
+
+section.mixitup-area {
+    padding: 50px 0;
+}
+
+.mixitup-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.mixitup-area li {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mixitup-area li:hover {
+    color: #fccb22;
+    text-decoration: none;
+}
+
+#Container img {
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.mixitup-area .active-btn {
+    color: #fccb22;
+}
+
+.mix h5 {
+    position: absolute;
+    color: #fff;
+    top: 65%;
+    left: 50%;
+    margin-left: -35px;
+    margin-top: -35px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 2px 8px;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.mix h5:hover {
+    color: #fccb22;
+    border: 1px solid #fccb22;
+}
+
+.mix:hover h5 {
+    top: 50%;
+    transition: .4s;
+    visibility: visible;
+    z-index: 99;
+    opacity: 1;
+}
+
+#Container img::after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 1;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* ==========================================================================
+   Oruna service area
+   ========================================================================== */
+
+section.oruna-area.service-area {
+    background: #00003c;
+}
+
+.oruna-services {
+    text-align: center;
+    padding: 20px 28px;
+    border: 1px solid #282856;
+    margin-top: 45px 0;
+    width: 95%;
+    margin-top: 45px;
+    width: 95%;
+    height: 80%;
+}
+
+.oruna-services h5 {
+    color: #fff;
+    margin: 0;
+    padding: 24px 0;
+    text-transform: capitalize;
+}
+
+/* ==========================================================================
+   Oruna parallax carousel
+   ========================================================================== */
+
+section.oruna-area.carousel-slider-area {
+    background: #010149;
+}
+
+.parallax-carousel {
+    position: relative;
+    padding: 10px 0;
+    background-image: url("../img/bg.jpg");
+    z-index: 1;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.parallax-carousel:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00003a;
+    content: "";
+    z-index: -1;
+    opacity: .8;
+}
+
+.slide-item {
+    text-align: center;
+    color: #fff;
+}
+
+.slide-item img {
+    padding: 16px 0;
+    border-radius: 50%;
+}
+
+.slide-item h6 {
+    margin: 0;
+    padding: 0 16px;
+    margin-bottom: 20px;
+}
+
+.slide-item h4 {
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.slide-item h5 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.slide-item h5 {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* ==========================================================================
+   Oruna logo carousel area
+   ========================================================================== */
+
+section.oruna-area.logo-slider {
+    padding: 90px 0;
+    background: #00003a;
+}
+
+img.img-fluid.logo-1,
+img.img-fluid.logo-3,
+img.img-fluid.logo-4 {
+    width: 200px;
+    padding: 10px;
+}
+
+img.img-fluid.logo-2 {
+    width: 160px;
+    padding: 10px;
+}
+
+img.img-fluid.logo-5 {
+    width: 220px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.owl-dot, .owl-nav{
+    display: none;
+}
+
+/* ==========================================================================
+   Oruna latest works
+   ========================================================================== */
+
+section.oruna-area.experience-area {
+    position: relative;
+    background: #010149;
+}
+
+.news-img {
+    position: relative;
+    margin-top: 40px;
+}
+
+.news-img p {
+    color: #e7e7ff;
+    position: absolute;
+    bottom: -6%;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.news-img p span {
+    color: #fbca00;
+}
+
+.news-detail {
+    position: relative;
+    background: #00002c;
+    padding: 40px 25px;
+}
+
+.news-detail h5 {
+    color: #fff;
+}
+.news-detail p{
+    text-transform: capitalize;
+}
+a.readmore-btn {
+    display: inline-block;
+    position: relative;
+    color: #505081;
+    text-transform: capitalize;
+}
+
+a.readmore-btn:after {
+    position: absolute;
+    background: #505081;
+    height: 2px;
+    width: 80px;
+    content: '';
+    bottom: 10px;
+    left: 210px;
+}
+
+a.readmore-btn:hover {
+    color: #fccb22;
+    text-decoration: none;
+    transition: ease .3s;
+}
+
+a.readmore-btn:hover:after {
+    background: #fccb22;
+    transition: ease .3s;
+}
+
+/* ==========================================================================
+   Oruna contact area
+   ========================================================================== */
+
+section.oruna-area.contact-area {
+    background: #00014b;
+}
+
+.contact-form {
+    margin-top: 60px;
+    padding: 0 35px;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form input[type=tel],
+.contact-form input[type=text] {
+    width: 45%;
+    background: none;
+    border: none;
+    position: relative;
+    border-bottom: 1px solid #505081;
+    outline: none;
+    color: #fff;
+    padding: 8px 0;
+    float: left;
+    margin: 30px 20px;
+}
+
+::placeholder {
+    color: #8f8fae;
+}
+
+.contact-form textarea {
+    width: 95%;
+    margin-left: 20px;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #4e5083;
+    padding: 0;
+    resize: none;
+    font-weight: 400;
+}
+
+input[type="submit"] {
+    margin: 30px 42%;
+    background: #fff;
+    border: none;
+    text-transform: capitalize;
+    padding: 12px 24px;
+    border-radius: 24px;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background: #d1d3fa;
+    transition: ease .3s;
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   Oruna contact area
+   ========================================================================== */
+
+section.social-contact-area {
+    background: #00024d;
+    padding: 30px 0;
+    border-top: 1px solid #4c5085;
+    border-bottom: 1px solid #4c5085;
+}
+
+section.social-contact-area h4 {
+    color: #8f8fae;
+}
+
+.social-icon {
+    position: relative;
+}
+
+.social-icon ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    list-style: none;
+}
+
+.social-icon li {
+    display: inline-block;
+}
+
+.social-icon li a {
+    color: #8888a9;
+    padding: 0 10px;
+}
+
+.social-icon li a:hover {
+    color: #fff;
+    transition: ease .3s;
+}
+
+/* ==========================================================================
+   Oruna footer area
+   ========================================================================== */
+
+section.footer-area {
+    background: #00024d;
+    padding: 35px 0;
+}
+
+section.footer-area p {
+    text-transform: capitalize;
+    margin: 0;
+    text-align: center;
+}
+
+/*
+*
+*
+*
+*
+*
+*
+*
+*
+
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+    /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
